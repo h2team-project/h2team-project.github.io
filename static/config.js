@@ -1,9 +1,11 @@
 const CONFIG = {
     root: 'ont',
-    // baseUrl: 'https://api.ontns.io',
     baseUrl: 'https://api.ontns.io',
+    //baseUrl: 'http://39.100.73.119:8080',
     whitePaperZH: '/static/pdf/whitepaper-zh.pdf',   // 白皮书 - 中文版
     whitePaperEN: '/static/pdf/whitepaper-en.pdf',   // 白皮书 - 英文版
+    homeBg: 'http://qiniu.mysprout.cn/bg.946f57e5.jpeg', // 首页背景图
+    downloadPlugin: 'https://chrome.google.com/webstore/detail/cyano-wallet/dkdedlpgdmmkkfjabffeganieamfklkm?utm_source=chrome-ntp-icon', // 插件下载地址
     wechar: '/static/logo/wechar.jpg',
     wecharName: 'h2team',          // 公众号名称
     email: 'contact@h2team.io',         // 平台邮箱
@@ -71,15 +73,15 @@ const CONFIG = {
     partners: [
         {
             name: 'ont',
-            img: '/static/logos/logo_ont.png'
+            img: '/static/partners/logo_ont.png'
         },
         {
             name: 'sea',
-            img: '/static/logos/logo_sea.png'
+            img: '/static/partners/logo_sea.png'
         },
         {
             name: 'bixiaobai',
-            img: '/static/logos/logo_bxb.png'
+            img: '/static/partners/logo_bxb.png'
         }
     ],
     links: [
@@ -101,7 +103,7 @@ const CONFIG = {
         {
             name: 'github',
             img: '/static/links/github.png',
-            url: 'https://ont.io/?tdsourcetag=s_pctim_aiomsg'
+            url: 'https://github.com/h2team-project'
         }
     ],
     registerStatus: {
